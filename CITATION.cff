@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this research repository, please cite it as below."
+type: software
+title: "Outer-In Prime-Support Research"
+authors:
+  - family-names: "Sharma"
+    given-names: "Samarth"
+repository-code: "https://github.com/graziton/outer-in-prime-support-research"
+url: "https://github.com/graziton/outer-in-prime-support-research"
+version: "1.0.0"
+date-released: 2026-09-23
+abstract: "Computational and mathematical research on the decimal outer-in digit transformation and integers with equal prime support under that transformation."
+keywords:
+  - "outer-in digit transformation"
+  - "prime support"
+  - "radical"
+  - "computational number theory"
+  - "OEIS"
