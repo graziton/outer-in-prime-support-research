@@ -1,0 +1,14 @@
+FINAL RELEASE SELF-CHECK
+========================
+Canonical dataset rows: 22
+OEIS b-file data rows: 22
+Canonical data == b-file: TRUE
+Independent verifier rows: 22
+Independent verifier failures: 0
+10-digit raw chunks: 90
+10-digit raw coverage: [1000000000,10000000000) in 100000000 increments
+10-digit raw hits: 3
+10-digit hit files: hits_1900000000.csv, hits_2200000000.csv, hits_2900000000.csv
+Search program and all historical C++ sources compile in the final audit environment.
+Final paper: compiled 7-page PDF and rendered for visual inspection.
+OEIS Superseeker: no term match reported on 2026-09-22.

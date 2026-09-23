@@ -1,0 +1,22 @@
+Definition
+
+Let n have decimal digits d1 d2 ... dk. Define
+
+    T(n) = d1 dk d2 d{k-1} d3 d{k-2} ...
+
+by reading alternately from the left and right ends. The sequence consists of
+positive integers m not divisible by 10 such that m != T(m) and
+rad(m) = rad(T(m)), where rad(m) is the product of the distinct prime divisors.
+
+Offset: 1,1
+
+Initial terms
+
+3024, 6048, 10143, 20286, 27864, 117216, 189216, 224224,
+333234, 352872, 387585, 448448, 666468, 3892032, 3928824,
+137539323, 247153125, 321881616, 869148324, 1938285196,
+2240563518, 2952612351
+
+Completeness established
+
+Exactly these 22 terms occur for 0 < m < 10^10 under the restriction m not divisible by 10.

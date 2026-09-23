@@ -1,0 +1,23 @@
+%N a(n) is the n-th positive integer m not divisible by 10 such that m != T(m) and rad(m) = rad(T(m)), where T interleaves the decimal digits from the two ends inward.
+%C Here T(d_1 d_2 ... d_k) = d_1 d_k d_2 d_{k-1} d_3 d_{k-2} ... . Thus T(12345) = 15243.
+%C Here rad(m) is the product of the distinct prime divisors of m.
+%C The condition m != T(m) excludes the fixed points of T.
+%C The restriction m not divisible by 10 is imposed on m itself; it is part of the sequence definition.
+%C If g = gcd(m,T(m)), m = a*g, T(m) = b*g, and gcd(a,b) = 1, then rad(m) = rad(T(m)) if and only if rad(a*b) | g.
+%C The 22 displayed terms are complete for m < 10^10 under the stated restriction. The first 19 are below 10^9; the interval 10^9 <= m < 10^10 contains exactly three.
+%C The three 10-digit terms have reduced ratios 73:64, 27:34, and 39:29, respectively, where the ratios are m/g : T(m)/g.
+%C For every r >= 1, the decimal integer obtained by repeating 224 exactly 2r times is a term, and T maps it to the corresponding repetition of 242. The same holds for 448 and 484.
+%C For every r >= 1, the decimal integer obtained by repeating 117 exactly 6r times is a term, and T maps it to the corresponding repetition of 171.
+%F For the 224/242 family, let Q_r = (10^(6r)-1)/999. Then the repeated-block integers are 224*Q_r and 242*Q_r, respectively, and T(224*Q_r) = 242*Q_r. Also 77 | Q_r.
+%F For the 448/484 family, with the same Q_r, T(448*Q_r) = 484*Q_r, and 77 | Q_r.
+%F For the 117/171 family, take B = 117117117 and C = 171171171. Then T(BB) = CC, gcd(B,C) = 9009009, B/gcd(B,C) = 13, C/gcd(B,C) = 19, and 13*19 | 10^9+1. Hence every even repetition of B gives equal prime support.
+%Y Cf. A110751, A110819, A244514, A371307.
+%e T(12345) = 15243.
+%e 3024 = 2^4*3^3*7 and T(3024) = 3402 = 2*3^5*7.
+%e 2240563518 -> 2821450356, with gcd = 82983834 and reduced ratio 27:34.
+%S 3024,6048,10143,20286,27864,117216,189216,224224,
+%T 333234,352872,387585,448448,666468,3892032,3928824,137539323,
+%U 247153125,321881616,869148324,1938285196,2240563518,2952612351
+%K base,more,nonn
+%O 1,1
+
