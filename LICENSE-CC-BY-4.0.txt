@@ -1,0 +1,20 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Unless otherwise stated in RIGHTS.md or in an individual file, original
+research documentation, datasets, verification records, mathematical notes,
+and manuscript material authored for this repository are licensed under the
+Creative Commons Attribution 4.0 International License.
+
+You are free to share and adapt the licensed material, including for
+commercial purposes, provided the license terms are followed and appropriate
+attribution is given.
+
+Canonical license:
+https://creativecommons.org/licenses/by/4.0/
+
+Full legal code:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+The canonical English legal code published by Creative Commons is the
+authoritative license text. Creative Commons states that the English 4.0
+legal code is maintained as a stable version. 
